@@ -1,6 +1,6 @@
-# My personal private repo
+## An university student that studying Computer Science
 
-## This repo mainly stores my configs/data/settings/saves for different application
+
 
 <!--
 **kyeunga25/kyeunga25** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
