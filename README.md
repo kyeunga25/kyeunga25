@@ -1,4 +1,4 @@
-# 👨‍💻 kyeunga25.sh
+# 👨‍💻 kenyharu.sh
 
 ```zsh
 > education    --school "CUHK" --major "Computer Science"
