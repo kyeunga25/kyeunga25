@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors and local tooling
+.idea/
+.vscode/*.log
+*.swp
+*.swo
+*~
+
+# Shell and command history
+.zsh_history
+.bash_history
+.python_history
+.zsh_sessions/
+.lesshst
+.viminfo
+
+# Secrets and machine identity
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa*
+id_ed25519*
+known_hosts
+hosts.yml
+credentials*
+
+# Caches, sessions, logs, and local databases
+.cache/
+.npm/
+.codex/
+.copilot/
+.continue/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.session
+
+# Package/build output
+node_modules/
+dist/
+build/
+coverage/
