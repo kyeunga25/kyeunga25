@@ -20,7 +20,7 @@ Codex day to day
 Mistral + DeepSeek as a second pair of eyes
 ```
 
-## `~/projects`
+## A few things
 
 ### [Wallpect](https://github.com/kyeunga25/wallpect)
 
