@@ -1,36 +1,14 @@
 # Ken Yeung
 
-I build practical tools across software, systems, and the web—curious, adaptable, and usually learning by making something useful.
+I build practical software for the web, usually by starting with a small problem and turning it into something useful. I care about clear interfaces, privacy, and reliable delivery.
 
-```zsh
-$ focus
-software · systems · web
+## What I'm working on
 
-$ stack
-TypeScript · React · Node.js · Python
-Linux · Docker · Nginx · Cloudflare
+- **[Wallpect](https://github.com/kyeunga25/wallpect)** — a wallpaper preview and fitting tool for Apple devices. Image editing and export stay in the browser. [Try it](https://wallpect.k-y.cc)
+- **[Anisonary](https://github.com/kyeunga25/anisonary)** — an anime opening and ending theme directory, organised by season and broadcast day. [Visit the site](https://anisonary.k-y.cc)
+- **[StudyMix AI](https://github.com/kyeunga25/studymix-ai)** — an early-stage tool for turning authorised audio into study-friendly instrumental mixes. [View the demo](https://studymix-ai.kyeunga25.workers.dev)
+- **[AislePack](https://github.com/kyeunga25/marketing_image_ai_web)** — an early-stage workflow for turning a product image and a brief into a coordinated set of ecommerce visuals.
 
-$ exploring
-AI-assisted development · agent workflows
-cloud · self-hosting · automation · reliability
-cross-platform systems · Windows Server · Azure
+I work mostly with TypeScript, React, Astro, Node.js, Python, and Cloudflare, alongside Linux, Windows Server, Azure, and automation.
 
-$ ai
-Codex day to day
-Mistral + DeepSeek as a second pair of eyes
-```
-
-## A few things
-
-### [Wallpect](https://github.com/kyeunga25/wallpect)
-
-A privacy-first wallpaper preview and fitting tool for Apple devices, with local image processing and multilingual support.
-
-### [Dotfiles](./dotfiles/)
-
-- `zsh` + Powerlevel10k
-- `tmux`
-- curated `Brewfile`
-- archived Windows Neovim config
-
-More at [k-y.cc](https://k-y.cc).
+You can also find me at [k-y.cc](https://k-y.cc), or browse the [dotfiles](./dotfiles/) kept in this repository.
