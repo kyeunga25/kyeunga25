@@ -1,0 +1,10 @@
+# Public-safe baseline for a trusted repository.
+# Keep authentication, machine paths, MCP secrets, and personal settings local.
+
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+allow_login_shell = false
+
+[sandbox_workspace_write]
+# Enable network access only when the repository's documented checks require it.
+network_access = false
