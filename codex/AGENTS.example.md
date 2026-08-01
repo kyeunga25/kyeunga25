@@ -5,6 +5,7 @@
 - Read the repository README, relevant documentation, and existing configuration before editing.
 - Confirm the active branch, working-tree state, and intended change scope.
 - Preserve unrelated user changes and generated artifacts that are already present.
+- Keep root guidance concise; place narrower overrides in the closest applicable `AGENTS.md` or `AGENTS.override.md`.
 
 ## Safety
 
