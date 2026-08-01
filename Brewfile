@@ -10,6 +10,7 @@ brew "zsh-syntax-highlighting"
 brew "gh"
 brew "kubernetes-cli"
 brew "node"
+brew "python"
 brew "ruby"
 
 # Media tools used from the command line

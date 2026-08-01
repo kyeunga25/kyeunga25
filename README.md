@@ -6,18 +6,57 @@ I build practical, verifiable software with clear interfaces, privacy-conscious 
 
 [個人網站 / Portfolio](https://k-y.cc) · [公開開發設定 / Public setup](#公開開發設定--public-development-setup)
 
-## 現正開發 / Current work
+## 已發布產品 / Released products
 
-以下項目以公開、可核實的版本為準；未合併的實驗不會列作已完成成果。
+以下版本以公開 release、repository 與正式網站為準；preview 或未合併的實驗不會列作已發布成果。
 
-| 項目 / Project | 內容 / What it does | 狀態 / Status |
-| --- | --- | --- |
-| **[Wallpect](https://github.com/kyeunga25/wallpect)** | 在瀏覽器內預覽、調整並輸出 Apple 裝置桌布；圖片不會上傳。<br>Browser-only wallpaper preview, fitting, and exact-size export for Apple devices. | **v0.2.2 · Released**<br>[線上使用 / Live](https://wallpect.k-y.cc) |
-| **[Anisonary｜動畫歌典](https://github.com/kyeunga25/anisonary)** | 按季度與播出日整理動畫 OP／ED；2026 春夏目錄現有 139 部作品及 298 筆主題曲資料。<br>A source-traceable seasonal anime theme directory with local, privacy-bounded search. | **v0.4.0 · Public**<br>[瀏覽目錄 / Live](https://anisonary.k-y.cc) |
-| **[Personal Space](https://github.com/kyeunga25/personal-space)** | 以 Shorts、Longform 和有來源的 Briefings 組織內容的雙語發佈介面。<br>A bilingual publishing foundation for short posts, longform writing, and source-backed briefings. | **Active development**<br>[查看網站 / Live](https://space.k-y.cc) |
-| **[Motive](https://github.com/kyeunga25/marketing_image_ai_web)** | 把產品資料、品牌規範與參考圖整理成一致的電商 campaign visuals。<br>A controlled ecommerce workflow for coordinated campaign visuals. | **Closed beta**<br>[預覽 / Preview](https://motive-ecommerce-visuals.kyeunga25.workers.dev) |
-| **[RigStage](https://github.com/kyeunga25/pc-ai-3d-builder)** | 面向電腦商戶的邀請制配置及 3D 視覺工作台；目前只使用合成示範資料。<br>An invite-only merchant PC configuration and 3D visualisation workspace using synthetic demo data. | **Invite-only MVP**<br>[查看程式碼 / Repository](https://github.com/kyeunga25/pc-ai-3d-builder) |
-| **[StudyMix AI](https://github.com/kyeunga25/studymix-ai)** | 把已獲授權的音訊轉成適合學習的純音樂版本，並以私人儲存及限時保留作設計邊界。<br>An early cloud-native MVP for authorized audio restyling, designed around private storage and limited retention. | **Early MVP**<br>[查看程式碼 / Repository](https://github.com/kyeunga25/studymix-ai) |
+### [Wallpect](https://github.com/kyeunga25/wallpect) — [v0.2.2](https://github.com/kyeunga25/wallpect/releases/tag/v0.2.2) · Released
+
+在瀏覽器內預覽、調整並輸出 Apple 裝置桌布；圖片解碼、編輯與輸出均留在瀏覽器內。
+
+Browser-only wallpaper preview, fitting, and exact-size export for Apple devices, without uploading the selected image.
+
+[線上使用 / Live](https://wallpect.k-y.cc)
+
+### [Anisonary｜動畫歌典](https://github.com/kyeunga25/anisonary) — [v1.1.0](https://github.com/kyeunga25/anisonary/releases/tag/v1.1.0) · Public
+
+按季度與日本播出日整理動畫 OP／ED；四個經審閱的季度快照現有 280 部作品及 615 筆主題曲資料。
+
+A source-traceable seasonal anime theme directory with 280 reviewed titles, 615 known OP／ED records, and local-only search.
+
+[瀏覽目錄 / Live](https://anisonary.k-y.cc)
+
+### [Personal Space](https://github.com/kyeunga25/personal-space) — [v0.6.0](https://github.com/kyeunga25/personal-space/releases/tag/v0.6.0) · Public
+
+以 Notes、Articles、Editions、搜尋與封存組織公開內容；私人 Studio 與寫入 API 維持受保護。
+
+A bilingual publishing space for notes, articles, reviewed editions, search, and archives, with an access-protected private studio.
+
+[查看網站 / Live](https://space.k-y.cc)
+
+## 私人測試與早期開發 / Private beta and early work
+
+這些產品只開放受邀工作區或仍有明確停用功能；公開 repository 與產品介紹不代表公開註冊。
+
+### [AisleStage](https://github.com/kyeunga25/aislestage) — [v0.5.1](https://github.com/kyeunga25/aislestage/releases/tag/v0.5.1) · Closed beta
+
+把獲授權商品圖、已核實的繁中／英文商業資料與人工批准，整理成 1:1、4:5、9:16 Campaign Pack。
+
+A controlled ecommerce workflow for three-format campaign packs built from approved product imagery, verified copy, and explicit human approval.
+
+### [RigStage](https://github.com/kyeunga25/pc-ai-3d-builder) — [v1.0.1](https://github.com/kyeunga25/pc-ai-3d-builder/releases/tag/v1.0.1) · Invite-only
+
+面向電腦商戶的受保護產品目錄、私人素材審核與 PC Builder；公開畫面只使用合成示範資料。
+
+An invite-only PC catalogue, private asset-review, and assembly workspace whose public showcase uses synthetic demo data.
+
+[產品介紹 / Overview](https://rigstage.k-y.cc)
+
+### [StudyMix AI](https://github.com/kyeunga25/studymix-ai) — Closed beta · Early MVP
+
+為已擁有或獲授權的錄音設計私人音訊風格重塑流程；目前沒有公開註冊，正式上載及外部生成保持停用。
+
+A private audio-restyling MVP for authorized recordings; public registration, production uploads, and external generation remain disabled.
 
 ## 工程方向 / Engineering focus
 
@@ -27,7 +66,9 @@ TypeScript, React, Astro, Node.js, Python, and Cloudflare Workers, with an empha
 
 ## 公開開發設定 / Public development setup
 
-- **[Codex development setup](./codex/)** — 可重用的 `AGENTS.md` 與最小權限 `config.toml` 範例；不包含憑證、本機路徑、工作紀錄或介面偏好。
+- **[Repository guidance](./AGENTS.md)** — 這個 Profile repository 實際採用的公開安全範圍與完成條件。
+- **[Codex development setup](./codex/)** — 可參考、可審閱的 `AGENTS.md` 與最小權限 `config.toml` 範例。
 - **[macOS dotfiles](./dotfiles/)** — 可攜、可審閱的 shell／terminal 設定子集，以及對應的 [Brewfile](./Brewfile)。
+- **[Public profile validation](./scripts/validate_public_profile.py)** — 檢查相對連結、公開設定、過時連結及常見敏感資料類別。
 
-The published setup is intentionally a reviewable reference rather than an export of live machine state.
+The published setup is intentionally a reviewable reference rather than an export of live machine state. It excludes credentials, machine paths, private service mappings, sessions, prompts, and interface preferences.
