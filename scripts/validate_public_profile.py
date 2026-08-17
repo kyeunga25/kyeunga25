@@ -180,11 +180,17 @@ def check_profile_contract(findings: set[Finding]) -> None:
     text = path.read_text(encoding="utf-8")
     required = {
         "AisleStage repository": "https://github.com/kyeunga25/aislestage",
-        "Wallpect release": "/wallpect/releases/tag/v0.2.2",
-        "Anisonary release": "/anisonary/releases/tag/v1.1.0",
-        "Personal Space release": "/personal-space/releases/tag/v0.6.0",
+        "Wallpect release": "/wallpect/releases/tag/v0.4.0",
+        "Wallpect documentation": "/wallpect/tree/main/docs",
+        "Anisonary release": "/anisonary/releases/tag/v1.3.0",
+        "Anisonary documentation": "/anisonary/tree/main/docs",
+        "Personal Space release": "/personal-space/releases/tag/v0.7.0",
+        "Personal Space documentation": "/personal-space/tree/main/docs",
         "AisleStage release": "/aislestage/releases/tag/v0.5.1",
-        "RigStage release": "/pc-ai-3d-builder/releases/tag/v1.0.1",
+        "AisleStage documentation": "/aislestage/tree/main/docs",
+        "RigStage overview": "https://rigstage.k-y.cc",
+        "StudyMix documentation": "/studymix-ai/tree/main/docs",
+        "portfolio repository": "https://github.com/kyeunga25/kyeunga25.github.io",
         "released products group": "## 已發布產品 / Released products",
         "private beta group": "## 私人測試與早期開發 / Private beta and early work",
     }
@@ -195,7 +201,10 @@ def check_profile_contract(findings: set[Finding]) -> None:
     deprecated = {
         "legacy repository name": "marketing_image_ai_web",
         "broken preview hostname": "motive-ecommerce-visuals",
-        "stale Anisonary version": "v0.4.0",
+        "private RigStage repository": "https://github.com/kyeunga25/pc-ai-3d-builder",
+        "stale Wallpect version": "/wallpect/releases/tag/v0.2.2",
+        "stale Anisonary version": "/anisonary/releases/tag/v1.1.0",
+        "stale Personal Space version": "/personal-space/releases/tag/v0.6.0",
     }
     for label, fragment in deprecated.items():
         offset = text.find(fragment)
