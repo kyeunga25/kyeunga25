@@ -1,10 +1,14 @@
-# Ken Yeung
+# kyeunga25
 
 把實際問題做成可用、可驗證，而且重視私隱的軟件。
 
 I build practical, verifiable software with clear interfaces, privacy-conscious architecture, and reliable delivery.
 
-[個人網站 / Portfolio](https://k-y.cc) · [公開開發設定 / Public setup](#公開開發設定--public-development-setup)
+[入口網站 / Portfolio](https://k-y.cc) · [安全政策 / Security](SECURITY.md) · [版權 / Copyright](COPYRIGHT.md) · [公開開發設定 / Public setup](#公開開發設定--public-development-setup)
+
+| 可用性 / Availability | 成熟度 / Maturity | 證據 / Evidence |
+| --- | --- | --- |
+| 公開入口與已核對項目索引 / Public portal and verified project index | 只列公開證據；私人測試分開標示 / Public evidence only; private beta labelled separately | [入口網站 / Live](https://k-y.cc) · [驗證工具 / Validator](scripts/validate_public_profile.py) |
 
 ## 已發布產品 / Released products
 
@@ -28,7 +32,7 @@ A source-traceable seasonal anime theme directory with 280 reviewed titles, 615 
 
 [瀏覽目錄 / Live](https://anisonary.k-y.cc) · [文件 / Docs](https://github.com/kyeunga25/anisonary/tree/main/docs)
 
-### [Personal Space](https://github.com/kyeunga25/personal-space) — [v0.7.0](https://github.com/kyeunga25/personal-space/releases/tag/v0.7.0) · Public
+### [Personal Space](https://github.com/kyeunga25/personal-space) — Source `v0.8.0` · [Release v0.7.0](https://github.com/kyeunga25/personal-space/releases/tag/v0.7.0) · Public
 
 以 Astro 與 Cloudflare Workers 建立 Notes、Articles、Editions、搜尋及封存；私人 Studio 與寫入操作維持受保護。
 
@@ -40,7 +44,7 @@ A bilingual Astro publishing space on Cloudflare Workers, with public reading su
 
 這些產品只開放受邀工作區或仍有明確停用功能；公開 repository 與產品介紹不代表公開註冊。
 
-### [AisleStage](https://github.com/kyeunga25/aislestage) — [v0.5.1](https://github.com/kyeunga25/aislestage/releases/tag/v0.5.1) · Closed beta · Invite-only
+### [AisleStage](https://github.com/kyeunga25/aislestage) — Source `v0.6.0` · [Release v0.5.1](https://github.com/kyeunga25/aislestage/releases/tag/v0.5.1) · Closed beta · Invite-only
 
 把獲授權商品圖、已核實的繁中／英文商業資料與人工批准，整理成 1:1、4:5、9:16 Campaign Pack。
 
@@ -48,7 +52,7 @@ A controlled ecommerce workflow for three-format campaign packs built from appro
 
 [文件 / Docs](https://github.com/kyeunga25/aislestage/tree/main/docs)
 
-### RigStage — Invite-only
+### RigStage — Source `v1.1.0` · latest release `v1.0.1` · Invite-only
 
 面向電腦商戶的受保護產品目錄、私人素材審核與 PC Builder；公開畫面只使用合成示範資料。
 
