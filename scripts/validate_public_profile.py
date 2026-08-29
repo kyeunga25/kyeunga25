@@ -178,6 +178,14 @@ def check_brewfile(findings: set[Finding]) -> None:
 def check_profile_contract(findings: set[Finding]) -> None:
     path = ROOT / "README.md"
     text = path.read_text(encoding="utf-8")
+    project_images = {
+        "Wallpect": "assets/projects/wallpect.jpg",
+        "Anisonary": "assets/projects/anisonary.jpg",
+        "Personal Space": "assets/projects/personal-space.jpg",
+        "AisleStage": "assets/projects/aislestage.jpg",
+        "RigStage": "assets/projects/rigstage.jpg",
+        "StudyMix": "assets/projects/studymix-ai.jpg",
+    }
     required = {
         "AisleStage repository": "https://github.com/kyeunga25/aislestage",
         "Wallpect release": "/wallpect/releases/tag/v0.4.0",
@@ -188,15 +196,21 @@ def check_profile_contract(findings: set[Finding]) -> None:
         "Personal Space documentation": "/personal-space/tree/main/docs",
         "AisleStage release": "/aislestage/releases/tag/v0.5.1",
         "AisleStage documentation": "/aislestage/tree/main/docs",
+        "AisleStage overview": "https://aislestage.k-y.cc",
         "RigStage overview": "https://rigstage.k-y.cc",
+        "StudyMix overview": "https://studymix.k-y.cc",
         "StudyMix documentation": "/studymix-ai/tree/main/docs",
         "portfolio repository": "https://github.com/kyeunga25/kyeunga25.github.io",
-        "released products group": "## 已發布產品 / Released products",
-        "private beta group": "## 私人測試與早期開發 / Private beta and early work",
+        "unified project showcase": "## 項目展示 / Project showcase",
+        **{f"{label} image": f"./{target}" for label, target in project_images.items()},
     }
     for label, fragment in required.items():
         if fragment not in text:
             findings.add(Finding(relative(path), 1, f"missing profile contract: {label}"))
+
+    for label, target in project_images.items():
+        if not (ROOT / target).is_file():
+            findings.add(Finding(target, 1, f"missing project image: {label}"))
 
     deprecated = {
         "legacy repository name": "marketing_image_ai_web",
@@ -205,6 +219,8 @@ def check_profile_contract(findings: set[Finding]) -> None:
         "stale Wallpect version": "/wallpect/releases/tag/v0.2.2",
         "stale Anisonary version": "/anisonary/releases/tag/v1.1.0",
         "stale Personal Space version": "/personal-space/releases/tag/v0.6.0",
+        "split released-products section": "## 已發布產品 / Released products",
+        "split private-beta section": "## 私人測試與早期開發 / Private beta and early work",
     }
     for label, fragment in deprecated.items():
         offset = text.find(fragment)
