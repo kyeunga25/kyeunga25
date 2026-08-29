@@ -18,15 +18,17 @@ Six projects, one showcase. Status was checked on **30 August 2026** against pub
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://wallpect.k-y.cc"><img src="./assets/projects/wallpect.jpg" width="100%" alt="Wallpect 桌布構圖工作區 / Wallpect wallpaper workspace"></a><br>
+    <td width="42%"><a href="https://wallpect.k-y.cc"><img src="./assets/projects/wallpect.jpg" width="100%" alt="Wallpect 桌布構圖工作區 / Wallpect wallpaper workspace"></a></td>
+    <td width="58%" valign="top">
       <strong><a href="https://wallpect.k-y.cc">Wallpect</a></strong><br>
       <code>Released · v0.4.0</code>
       <p>在瀏覽器本機預覽、調整並輸出 Apple 裝置桌布；所選圖片不會上載。<br><sub>Browser-only wallpaper composition and exact-size export without uploading the selected image.</sub></p>
       <p><a href="https://wallpect.k-y.cc">Live</a> · <a href="https://github.com/kyeunga25/wallpect">Source</a> · <a href="https://github.com/kyeunga25/wallpect/releases/tag/v0.4.0">Release</a> · <a href="https://github.com/kyeunga25/wallpect/tree/main/docs">Docs</a></p>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://anisonary.k-y.cc"><img src="./assets/projects/anisonary.jpg" width="100%" alt="Anisonary 動畫歌典季度目錄 / Anisonary seasonal theme directory"></a><br>
+  </tr>
+  <tr>
+    <td width="42%"><a href="https://anisonary.k-y.cc"><img src="./assets/projects/anisonary.jpg" width="100%" alt="Anisonary 動畫歌典季度目錄 / Anisonary seasonal theme directory"></a></td>
+    <td width="58%" valign="top">
       <strong><a href="https://anisonary.k-y.cc">Anisonary｜動畫歌典</a></strong><br>
       <code>Public · v1.3.0</code>
       <p>按季度與日本播出日整理 280 部作品及 615 首 OP／ED，保留逐曲來源記錄。<br><sub>A source-traceable seasonal directory with local search across 280 titles and 615 OP／ED records.</sub></p>
@@ -34,15 +36,17 @@ Six projects, one showcase. Status was checked on **30 August 2026** against pub
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://space.k-y.cc"><img src="./assets/projects/personal-space.jpg" width="100%" alt="Personal Space 雙語發佈空間 / Personal Space bilingual publishing surface"></a><br>
+    <td width="42%"><a href="https://space.k-y.cc"><img src="./assets/projects/personal-space.jpg" width="100%" alt="Personal Space 雙語發佈空間 / Personal Space bilingual publishing surface"></a></td>
+    <td width="58%" valign="top">
       <strong><a href="https://space.k-y.cc">Personal Space</a></strong><br>
       <code>Public · Source v0.8.0 · Release v0.7.0</code>
       <p>公開 Notes、Articles、Editions、搜尋與封存；Studio 及寫入操作只限擁有者。<br><sub>A bilingual publishing space with public reading surfaces and an owner-only Studio.</sub></p>
       <p><a href="https://space.k-y.cc">Live</a> · <a href="https://github.com/kyeunga25/personal-space">Source</a> · <a href="https://github.com/kyeunga25/personal-space/releases/tag/v0.7.0">Release</a> · <a href="https://github.com/kyeunga25/personal-space/tree/main/docs">Docs</a></p>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://aislestage.k-y.cc"><img src="./assets/projects/aislestage.jpg" width="100%" alt="AisleStage Campaign Pack 工作區 / AisleStage Campaign Pack workspace"></a><br>
+  </tr>
+  <tr>
+    <td width="42%"><a href="https://aislestage.k-y.cc"><img src="./assets/projects/aislestage.jpg" width="100%" alt="AisleStage Campaign Pack 工作區 / AisleStage Campaign Pack workspace"></a></td>
+    <td width="58%" valign="top">
       <strong><a href="https://aislestage.k-y.cc">AisleStage</a></strong><br>
       <code>Closed beta · Invite-only · Source v0.6.0 · Release v0.5.1</code>
       <p>把獲授權商品圖、已核實雙語資料與人工批准整理成 1:1、4:5、9:16 Campaign Pack。<br><sub>An invite-only, human-reviewed workflow for coordinated three-format campaign packs.</sub></p>
@@ -50,15 +54,17 @@ Six projects, one showcase. Status was checked on **30 August 2026** against pub
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://rigstage.k-y.cc"><img src="./assets/projects/rigstage.jpg" width="100%" alt="RigStage 合成 PC Builder 畫面 / RigStage synthetic PC Builder view"></a><br>
+    <td width="42%"><a href="https://rigstage.k-y.cc"><img src="./assets/projects/rigstage.jpg" width="100%" alt="RigStage 合成 PC Builder 畫面 / RigStage synthetic PC Builder view"></a></td>
+    <td width="58%" valign="top">
       <strong><a href="https://rigstage.k-y.cc">RigStage</a></strong><br>
       <code>Invite-only · Source v1.1.0 · Release v1.0.1</code>
       <p>受保護的產品目錄、私人素材審核與 PC Builder，公開畫面只使用合成資料。<br><sub>An invite-only catalogue, asset-review, and PC assembly workspace with synthetic public demos.</sub></p>
       <p><a href="https://rigstage.k-y.cc">Overview</a> · Private source / 私人原始碼</p>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://studymix.k-y.cc"><img src="./assets/projects/studymix-ai.jpg" width="100%" alt="StudyMix AI 私人音訊風格工作區 / StudyMix AI private audio-style workspace"></a><br>
+  </tr>
+  <tr>
+    <td width="42%"><a href="https://studymix.k-y.cc"><img src="./assets/projects/studymix-ai.jpg" width="100%" alt="StudyMix AI 私人音訊風格工作區 / StudyMix AI private audio-style workspace"></a></td>
+    <td width="58%" valign="top">
       <strong><a href="https://studymix.k-y.cc">StudyMix AI</a></strong><br>
       <code>Closed beta · Early MVP</code>
       <p>為已擁有或獲授權的錄音設計私人風格重塑流程；正式上載及外部生成仍停用。<br><sub>A private audio-restyling MVP with production uploads and external generation disabled.</sub></p>
