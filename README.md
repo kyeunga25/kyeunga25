@@ -18,7 +18,7 @@ Six projects, one showcase. Status was checked on **30 August 2026** against pub
 
 <table>
   <tr>
-    <td width="42%"><a href="https://wallpect.k-y.cc"><img src="./assets/projects/wallpect.jpg" width="100%" alt="Wallpect 桌布構圖工作區 / Wallpect wallpaper workspace"></a></td>
+    <td width="42%" valign="top"><a href="https://wallpect.k-y.cc"><img src="./assets/projects/wallpect.jpg" width="100%" alt="Wallpect 桌布構圖工作區 / Wallpect wallpaper workspace"></a></td>
     <td width="58%" valign="top">
       <strong><a href="https://wallpect.k-y.cc">Wallpect</a></strong><br>
       <code>Released · v0.4.0</code>
@@ -27,7 +27,7 @@ Six projects, one showcase. Status was checked on **30 August 2026** against pub
     </td>
   </tr>
   <tr>
-    <td width="42%"><a href="https://anisonary.k-y.cc"><img src="./assets/projects/anisonary.jpg" width="100%" alt="Anisonary 動畫歌典季度目錄 / Anisonary seasonal theme directory"></a></td>
+    <td width="42%" valign="top"><a href="https://anisonary.k-y.cc"><img src="./assets/projects/anisonary.jpg" width="100%" alt="Anisonary 動畫歌典季度目錄 / Anisonary seasonal theme directory"></a></td>
     <td width="58%" valign="top">
       <strong><a href="https://anisonary.k-y.cc">Anisonary｜動畫歌典</a></strong><br>
       <code>Public · v1.3.0</code>
@@ -36,7 +36,7 @@ Six projects, one showcase. Status was checked on **30 August 2026** against pub
     </td>
   </tr>
   <tr>
-    <td width="42%"><a href="https://space.k-y.cc"><img src="./assets/projects/personal-space.jpg" width="100%" alt="Personal Space 雙語發佈空間 / Personal Space bilingual publishing surface"></a></td>
+    <td width="42%" valign="top"><a href="https://space.k-y.cc"><img src="./assets/projects/personal-space.jpg" width="100%" alt="Personal Space 雙語發佈空間 / Personal Space bilingual publishing surface"></a></td>
     <td width="58%" valign="top">
       <strong><a href="https://space.k-y.cc">Personal Space</a></strong><br>
       <code>Public · Source v0.8.0 · Release v0.7.0</code>
@@ -45,7 +45,7 @@ Six projects, one showcase. Status was checked on **30 August 2026** against pub
     </td>
   </tr>
   <tr>
-    <td width="42%"><a href="https://aislestage.k-y.cc"><img src="./assets/projects/aislestage.jpg" width="100%" alt="AisleStage Campaign Pack 工作區 / AisleStage Campaign Pack workspace"></a></td>
+    <td width="42%" valign="top"><a href="https://aislestage.k-y.cc"><img src="./assets/projects/aislestage.jpg" width="100%" alt="AisleStage Campaign Pack 工作區 / AisleStage Campaign Pack workspace"></a></td>
     <td width="58%" valign="top">
       <strong><a href="https://aislestage.k-y.cc">AisleStage</a></strong><br>
       <code>Closed beta · Invite-only · Source v0.6.0 · Release v0.5.1</code>
@@ -54,7 +54,7 @@ Six projects, one showcase. Status was checked on **30 August 2026** against pub
     </td>
   </tr>
   <tr>
-    <td width="42%"><a href="https://rigstage.k-y.cc"><img src="./assets/projects/rigstage.jpg" width="100%" alt="RigStage 合成 PC Builder 畫面 / RigStage synthetic PC Builder view"></a></td>
+    <td width="42%" valign="top"><a href="https://rigstage.k-y.cc"><img src="./assets/projects/rigstage.jpg" width="100%" alt="RigStage 合成 PC Builder 畫面 / RigStage synthetic PC Builder view"></a></td>
     <td width="58%" valign="top">
       <strong><a href="https://rigstage.k-y.cc">RigStage</a></strong><br>
       <code>Invite-only · Source v1.1.0 · Release v1.0.1</code>
@@ -63,7 +63,7 @@ Six projects, one showcase. Status was checked on **30 August 2026** against pub
     </td>
   </tr>
   <tr>
-    <td width="42%"><a href="https://studymix.k-y.cc"><img src="./assets/projects/studymix-ai.jpg" width="100%" alt="StudyMix AI 私人音訊風格工作區 / StudyMix AI private audio-style workspace"></a></td>
+    <td width="42%" valign="top"><a href="https://studymix.k-y.cc"><img src="./assets/projects/studymix-ai.jpg" width="100%" alt="StudyMix AI 私人音訊風格工作區 / StudyMix AI private audio-style workspace"></a></td>
     <td width="58%" valign="top">
       <strong><a href="https://studymix.k-y.cc">StudyMix AI</a></strong><br>
       <code>Closed beta · Early MVP</code>
