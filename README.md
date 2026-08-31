@@ -4,10 +4,10 @@
 
 I build practical, verifiable software with clear interfaces, privacy-conscious architecture, and reliable delivery.
 
-[入口網站 / Portfolio](https://k-y.cc) · [安全政策 / Security](SECURITY.md) · [版權 / Copyright](COPYRIGHT.md) · [公開開發設定 / Public setup](#公開開發設定--public-development-setup)
+[入口網站 / Portfolio](https://k-y.cc) · [安全政策 / Security](SECURITY.md) · [授權 / Licence](LICENSING.md) · [公開開發設定 / Public setup](#公開開發設定--public-development-setup)
 
-| 可用性 / Availability | 成熟度 / Maturity | 證據 / Evidence |
-| --- | --- | --- |
+| 可用性 / Availability                                               | 成熟度 / Maturity                                                                       | 證據 / Evidence                                                                                |
+| ------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | 公開入口與已核對項目索引 / Public portal and verified project index | 只列公開證據；私人測試分開標示 / Public evidence only; private beta labelled separately | [入口網站 / Live](https://k-y.cc) · [驗證工具 / Validator](scripts/validate_public_profile.py) |
 
 ## 項目展示 / Project showcase
@@ -88,3 +88,19 @@ TypeScript, React, Astro, Node.js, Python, Cloudflare Workers, and Static Assets
 - **[Public profile validation](./scripts/validate_public_profile.py)** — 檢查相對連結、公開設定、過時連結及常見敏感資料類別。
 
 The published setup is intentionally a reviewable reference rather than an export of live machine state. It excludes credentials, machine paths, private service mappings, sessions, prompts, and interface preferences.
+
+## 授權 / Licence
+
+`Brewfile`、`codex/**`、`dotfiles/**`、`archive/**`、`scripts/**` 及
+相關公開技術文件中的可重用專案自有材料，依 [MIT License](LICENSE) 提供。
+Profile／項目文案與編排、`README.md` 內的個人識別元素、`assets/**`、項目
+名稱、商標及第三方材料不在 MIT 授權範圍內。
+
+Repository-owned reusable setup examples and validation tools are provided
+under the [MIT License](LICENSE). Profile and project copy or arrangement,
+personal identity elements in `README.md`, `assets/**`, names, marks, and
+third-party material are excluded.
+
+完整邊界見 [`LICENSING.md`](LICENSING.md)、
+[`COPYRIGHT.md`](COPYRIGHT.md) 及
+[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。
