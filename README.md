@@ -12,63 +12,72 @@ I build practical, verifiable software with clear interfaces, privacy-conscious 
 
 ## 項目展示 / Project showcase
 
-六個項目集中在同一區域；狀態於 **2026-08-30** 按公開 source、release、文件及正式入口核對。公開產品、closed beta 與 invite-only 工作區會分開標示。
+狀態於 **2026-09-08** 按公開 source、release、文件及網站入口核對。以下六個 repo 均已公開；網站可用性與工作區存取限制分開標示，source 進展不等於已正式發布。
 
-Six projects, one showcase. Status was checked on **30 August 2026** against public source, releases, documentation, and production entry points.
+All six repositories are public. Status was checked on **8 September 2026**; public websites, invited workspaces, source progress and releases are labelled separately.
 
 <table>
-  <tr>
-    <td width="42%" valign="top"><a href="https://wallpect.k-y.cc"><img src="./assets/projects/wallpect.jpg" width="100%" alt="Wallpect 桌布構圖工作區 / Wallpect wallpaper workspace"></a></td>
-    <td width="58%" valign="top">
-      <strong><a href="https://wallpect.k-y.cc">Wallpect</a></strong><br>
-      <code>Released · v0.4.0</code>
-      <p>在瀏覽器本機預覽、調整並輸出 Apple 裝置桌布；所選圖片不會上載。<br><sub>Browser-only wallpaper composition and exact-size export without uploading the selected image.</sub></p>
-      <p><a href="https://wallpect.k-y.cc">Live</a> · <a href="https://github.com/kyeunga25/wallpect">Source</a> · <a href="https://github.com/kyeunga25/wallpect/releases/tag/v0.4.0">Release</a> · <a href="https://github.com/kyeunga25/wallpect/tree/main/docs">Docs</a></p>
-    </td>
-  </tr>
   <tr>
     <td width="42%" valign="top"><a href="https://anisonary.k-y.cc"><img src="./assets/projects/anisonary.jpg" width="100%" alt="Anisonary 動畫歌典季度目錄 / Anisonary seasonal theme directory"></a></td>
     <td width="58%" valign="top">
       <strong><a href="https://anisonary.k-y.cc">Anisonary｜動畫歌典</a></strong><br>
-      <code>Public · v1.3.0</code>
-      <p>按季度與日本播出日整理 280 部作品及 615 首 OP／ED，保留逐曲來源記錄。<br><sub>A source-traceable seasonal directory with local search across 280 titles and 615 OP／ED records.</sub></p>
-      <p><a href="https://anisonary.k-y.cc">Live</a> · <a href="https://github.com/kyeunga25/anisonary">Source</a> · <a href="https://github.com/kyeunga25/anisonary/releases/tag/v1.3.0">Release</a> · <a href="https://github.com/kyeunga25/anisonary/tree/main/docs">Docs</a></p>
+      <code>Public repo</code><br>
+      <sub>Live · Source v1.31.1 · Release v1.31.0</sub>
+      <p>具來源記錄的動畫 OP／ED 目錄，涵蓋 28 個已審閱季度、1,917 部作品及 4,229 筆歌曲；支援本機搜尋、逐曲 credits 與靜態 API。<br><sub>A source-traceable directory spanning 28 reviewed seasons, 1,917 titles and 4,229 themes, with local search, song credits and a static API.</sub></p>
+      <p>近期擴充 2019 夏季目錄，並加入已核對的演唱者與角色 credits；該季度仍在補充。<br><sub>Recent source work expands summer 2019 and displays reviewed vocal credits; that quarter is still growing.</sub></p>
+      <p><a href="https://anisonary.k-y.cc">Live</a> · <a href="https://github.com/kyeunga25/anisonary">GitHub</a> · <a href="https://github.com/kyeunga25/anisonary/releases/tag/v1.31.0">Release</a> · <a href="https://github.com/kyeunga25/anisonary/tree/main/docs">Docs</a></p>
     </td>
   </tr>
   <tr>
     <td width="42%" valign="top"><a href="https://space.k-y.cc"><img src="./assets/projects/personal-space.jpg" width="100%" alt="Personal Space 雙語發佈空間 / Personal Space bilingual publishing surface"></a></td>
     <td width="58%" valign="top">
       <strong><a href="https://space.k-y.cc">Personal Space</a></strong><br>
-      <code>Public · Source v0.8.0 · Release v0.7.0</code>
-      <p>公開 Notes、Articles、Editions、搜尋與封存；Studio 及寫入操作只限擁有者。<br><sub>A bilingual publishing space with public reading surfaces and an owner-only Studio.</sub></p>
-      <p><a href="https://space.k-y.cc">Live</a> · <a href="https://github.com/kyeunga25/personal-space">Source</a> · <a href="https://github.com/kyeunga25/personal-space/releases/tag/v0.7.0">Release</a> · <a href="https://github.com/kyeunga25/personal-space/tree/main/docs">Docs</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="42%" valign="top"><a href="https://aislestage.k-y.cc"><img src="./assets/projects/aislestage.jpg" width="100%" alt="AisleStage Campaign Pack 工作區 / AisleStage Campaign Pack workspace"></a></td>
-    <td width="58%" valign="top">
-      <strong><a href="https://aislestage.k-y.cc">AisleStage</a></strong><br>
-      <code>Closed beta · Invite-only · Source v0.6.0 · Release v0.5.1</code>
-      <p>把獲授權商品圖、已核實雙語資料與人工批准整理成 1:1、4:5、9:16 Campaign Pack。<br><sub>An invite-only, human-reviewed workflow for coordinated three-format campaign packs.</sub></p>
-      <p><a href="https://aislestage.k-y.cc">Overview</a> · <a href="https://github.com/kyeunga25/aislestage">Source</a> · <a href="https://github.com/kyeunga25/aislestage/releases/tag/v0.5.1">Release</a> · <a href="https://github.com/kyeunga25/aislestage/tree/main/docs">Docs</a></p>
+      <code>Public repo</code><br>
+      <sub>Live · Released v0.8.0</sub>
+      <p>雙語內容發佈系統，提供公開 Notes、Articles、人工審閱 Editions、搜尋、標籤、月份封存及 RSS；內容管理留在擁有者專用 Studio。<br><sub>A bilingual publishing system with public notes, articles, reviewed editions, search, tags, archives and RSS, plus an owner-only Studio.</sub></p>
+      <p>v0.8.0 已發布，線上健康檢查亦回報 v0.8.0；近期完善自部署文件及依賴安全檢查。<br><sub>v0.8.0 is released and reported by the live health endpoint; recent work improves self-hosting docs and dependency checks.</sub></p>
+      <p><a href="https://space.k-y.cc">Live</a> · <a href="https://github.com/kyeunga25/personal-space">GitHub</a> · <a href="https://github.com/kyeunga25/personal-space/releases/tag/v0.8.0">Release</a> · <a href="https://github.com/kyeunga25/personal-space/tree/main/docs">Docs</a></p>
     </td>
   </tr>
   <tr>
     <td width="42%" valign="top"><a href="https://rigstage.k-y.cc"><img src="./assets/projects/rigstage.jpg" width="100%" alt="RigStage 合成 PC Builder 畫面 / RigStage synthetic PC Builder view"></a></td>
     <td width="58%" valign="top">
       <strong><a href="https://rigstage.k-y.cc">RigStage</a></strong><br>
-      <code>Invite-only · Source v1.1.0 · Release v1.0.1</code>
-      <p>受保護的產品目錄、私人素材審核與 PC Builder，公開畫面只使用合成資料。<br><sub>An invite-only catalogue, asset-review, and PC assembly workspace with synthetic public demos.</sub></p>
-      <p><a href="https://rigstage.k-y.cc">Overview</a> · Private source / 私人原始碼</p>
+      <code>Public repo</code><br>
+      <sub>Invite-only · Source v1.1.0 · Release v1.0.1</sub>
+      <p>邀請制電腦產品目錄、私人 3D 素材審核與 PC Builder，支援保存組裝草稿、已核實規格及可解釋相容性結果。<br><sub>An invite-only PC catalogue, private 3D asset-review workflow and builder with saved assemblies, verified specifications and explainable compatibility.</sub></p>
+      <p>原始碼現已公開；近期加入多模型預覽及素材審核分頁。工作區仍限受邀使用者，真實 AI 生成預設停用。<br><sub>Source is now public, with recent multi-model previews and paginated asset review. Workspace access remains invite-only; real AI is disabled by default.</sub></p>
+      <p><a href="https://rigstage.k-y.cc">Overview</a> · <a href="https://github.com/kyeunga25/pc-ai-3d-builder">GitHub</a> · <a href="https://github.com/kyeunga25/pc-ai-3d-builder/releases/tag/v1.0.1">Release</a> · <a href="https://github.com/kyeunga25/pc-ai-3d-builder/tree/main/docs">Docs</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="42%" valign="top"><a href="https://aislestage.k-y.cc"><img src="./assets/projects/aislestage.jpg" width="100%" alt="AisleStage Campaign Pack 工作區 / AisleStage Campaign Pack workspace"></a></td>
+    <td width="58%" valign="top">
+      <strong><a href="https://aislestage.k-y.cc">AisleStage</a></strong><br>
+      <code>Public repo</code><br>
+      <sub>Closed beta · Invite-only · Source v0.6.0 · Release v0.5.1</sub>
+      <p>把獲授權商品圖、已核實雙語資料及人工批准整理成 1:1、4:5、9:16 Campaign Pack。近期 source 加入已批准輸出的本機 PNG 匯出。<br><sub>An invite-only workflow for human-reviewed, three-format campaign packs. Recent source work adds local PNG export of approved outputs.</sub></p>
+      <p><a href="https://aislestage.k-y.cc">Overview</a> · <a href="https://github.com/kyeunga25/aislestage">GitHub</a> · <a href="https://github.com/kyeunga25/aislestage/releases/tag/v0.5.1">Release</a> · <a href="https://github.com/kyeunga25/aislestage/tree/main/docs">Docs</a></p>
     </td>
   </tr>
   <tr>
     <td width="42%" valign="top"><a href="https://studymix.k-y.cc"><img src="./assets/projects/studymix-ai.jpg" width="100%" alt="StudyMix AI 私人音訊風格工作區 / StudyMix AI private audio-style workspace"></a></td>
     <td width="58%" valign="top">
       <strong><a href="https://studymix.k-y.cc">StudyMix AI</a></strong><br>
-      <code>Closed beta · Early MVP</code>
-      <p>為已擁有或獲授權的錄音設計私人風格重塑流程；正式上載及外部生成仍停用。<br><sub>A private audio-restyling MVP with production uploads and external generation disabled.</sub></p>
-      <p><a href="https://studymix.k-y.cc">Overview</a> · <a href="https://github.com/kyeunga25/studymix-ai">Source</a> · <a href="https://github.com/kyeunga25/studymix-ai/tree/main/docs">Docs</a></p>
+      <code>Public repo</code><br>
+      <sub>Closed beta · Early MVP · No public release</sub>
+      <p>為自有或獲授權錄音設計私人風格重塑流程；已合併本機音訊預覽及播放檢查，正式上載與外部生成仍停用。<br><sub>A private audio-restyling MVP with merged local audio preview and playback checks; production uploads and external generation remain disabled.</sub></p>
+      <p><a href="https://studymix.k-y.cc">Overview</a> · <a href="https://github.com/kyeunga25/studymix-ai">GitHub</a> · <a href="https://github.com/kyeunga25/studymix-ai/tree/main/docs">Docs</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="42%" valign="top"><a href="https://wallpect.k-y.cc"><img src="./assets/projects/wallpect.jpg" width="100%" alt="Wallpect 桌布構圖工作區 / Wallpect wallpaper workspace"></a></td>
+    <td width="58%" valign="top">
+      <strong><a href="https://wallpect.k-y.cc">Wallpect</a></strong><br>
+      <code>Public repo</code><br>
+      <sub>Live · Released v0.4.0</sub>
+      <p>在瀏覽器本機預覽、調整及輸出 Apple 裝置桌布；目前 v0.4.0 提供 47 種顯示設定、涵蓋 191 個已列名型號，圖片不會上載。<br><sub>Browser-only Apple wallpaper preview, fitting and exact-size export. v0.4.0 covers 47 display profiles and 191 named models without image uploads.</sub></p>
+      <p><a href="https://wallpect.k-y.cc">Live</a> · <a href="https://github.com/kyeunga25/wallpect">GitHub</a> · <a href="https://github.com/kyeunga25/wallpect/releases/tag/v0.4.0">Release</a> · <a href="https://github.com/kyeunga25/wallpect/tree/main/docs">Docs</a></p>
     </td>
   </tr>
 </table>
