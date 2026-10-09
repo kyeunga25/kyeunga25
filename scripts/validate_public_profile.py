@@ -178,42 +178,23 @@ def check_brewfile(findings: set[Finding]) -> None:
 def check_profile_contract(findings: set[Finding]) -> None:
     path = ROOT / "README.md"
     text = path.read_text(encoding="utf-8")
-    project_images = {
-        "Wallpect": "assets/projects/wallpect.jpg",
-        "Anisonary": "assets/projects/anisonary.jpg",
-        "Personal Space": "assets/projects/personal-space.jpg",
-        "AisleStage": "assets/projects/aislestage.jpg",
-        "RigStage": "assets/projects/rigstage.jpg",
-        "StudyMix": "assets/projects/studymix-ai.jpg",
+    projects = {
+        "Anisonary": ("anisonary", "anisonary"),
+        "Personal Space": ("personal-space", "space"),
+        "RigStage": ("pc-ai-3d-builder", "rigstage"),
+        "AisleStage": ("aislestage", "aislestage"),
+        "StudyMix AI": ("studymix-ai", "studymix"),
+        "Wallpect": ("wallpect", "wallpect"),
     }
-    required = {
-        "AisleStage repository": "https://github.com/kyeunga25/aislestage",
-        "Wallpect release": "/wallpect/releases/tag/v0.4.0",
-        "Wallpect documentation": "/wallpect/tree/main/docs",
-        "Anisonary release": "/anisonary/releases/tag/v1.31.0",
-        "Anisonary documentation": "/anisonary/tree/main/docs",
-        "Personal Space release": "/personal-space/releases/tag/v0.8.0",
-        "Personal Space documentation": "/personal-space/tree/main/docs",
-        "AisleStage release": "/aislestage/releases/tag/v0.5.1",
-        "AisleStage documentation": "/aislestage/tree/main/docs",
-        "AisleStage overview": "https://aislestage.k-y.cc",
-        "RigStage overview": "https://rigstage.k-y.cc",
-        "RigStage public repository": "https://github.com/kyeunga25/pc-ai-3d-builder",
-        "RigStage release": "/pc-ai-3d-builder/releases/tag/v1.0.1",
-        "RigStage documentation": "/pc-ai-3d-builder/tree/main/docs",
-        "StudyMix overview": "https://studymix.k-y.cc",
-        "StudyMix documentation": "/studymix-ai/tree/main/docs",
-        "portfolio repository": "https://github.com/kyeunga25/kyeunga25.github.io",
-        "unified project showcase": "## 項目展示 / Project showcase",
-        **{f"{label} image": f"./{target}" for label, target in project_images.items()},
-    }
-    for label, fragment in required.items():
-        if fragment not in text:
-            findings.add(Finding(relative(path), 1, f"missing profile contract: {label}"))
-
-    for label, target in project_images.items():
-        if not (ROOT / target).is_file():
-            findings.add(Finding(target, 1, f"missing project image: {label}"))
+    # Match complete Markdown destinations so lookalike or nested URLs fail.
+    destinations = set(re.findall(r"\[[^\]]*\]\(([^)]+)\)", text))
+    required_links = {"portfolio": "https://k-y.cc", "licensing scope": "LICENSING.md"}
+    for label, (repository, hostname) in projects.items():
+        required_links[f"{label} repository"] = f"https://github.com/kyeunga25/{repository}"
+        required_links[f"{label} website"] = f"https://{hostname}.k-y.cc"
+    for label, target in required_links.items():
+        if target not in destinations:
+            findings.add(Finding(relative(path), 1, f"missing profile link: {label}"))
 
     deprecated = {
         "legacy repository name": "marketing_image_ai_web",
