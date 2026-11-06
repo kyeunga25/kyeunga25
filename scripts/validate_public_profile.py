@@ -178,20 +178,27 @@ def check_brewfile(findings: set[Finding]) -> None:
 def check_profile_contract(findings: set[Finding]) -> None:
     path = ROOT / "README.md"
     text = path.read_text(encoding="utf-8")
-    projects = {
+    public_projects = {
         "Anisonary": ("anisonary", "anisonary"),
         "Personal Space": ("personal-space", "space"),
+        "Wallpect": ("wallpect", "wallpect"),
+    }
+    overview_projects = {
         "RigStage": ("pc-ai-3d-builder", "rigstage"),
         "AisleStage": ("aislestage", "aislestage"),
         "StudyMix AI": ("studymix-ai", "studymix"),
-        "Wallpect": ("wallpect", "wallpect"),
     }
     # Match complete Markdown destinations so lookalike or nested URLs fail.
     destinations = set(re.findall(r"\[[^\]]*\]\(([^)]+)\)", text))
     required_links = {"portfolio": "https://k-y.cc", "licensing scope": "LICENSING.md"}
-    for label, (repository, hostname) in projects.items():
+    for label, (repository, hostname) in public_projects.items():
         required_links[f"{label} repository"] = f"https://github.com/kyeunga25/{repository}"
         required_links[f"{label} website"] = f"https://{hostname}.k-y.cc"
+    for label, (repository, hostname) in overview_projects.items():
+        required_links[f"{label} product overview"] = f"https://{hostname}.k-y.cc"
+        offset = text.lower().find(f"github.com/kyeunga25/{repository}")
+        if offset >= 0:
+            findings.add(Finding(relative(path), line_for(text, offset), f"{label} repository link"))
     for label, target in required_links.items():
         if target not in destinations:
             findings.add(Finding(relative(path), 1, f"missing profile link: {label}"))
